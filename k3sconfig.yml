@@ -1,0 +1,6 @@
+---
+- name: run hostnamectl
+  hosts: all
+  tasks:
+    - name: Run command via shell
+      shell: echo $(hostnamectl)
