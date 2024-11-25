@@ -1,0 +1,6 @@
+- name: Отобразить "Hello, World!" через Ansible
+  hosts: all
+  tasks:
+    - name: Показать сообщение
+      debug:
+        msg: "Hello, World!"
